@@ -5,7 +5,8 @@ public class JavaExampleOfGarbageCollectionsTwo {
 	final static int num = 15;
 	
 	public static void main(String[] args) {
-		num = 25;
+		//final value cannot be changed
+		//num = 25;
 		System.out.println(num);
 	}
 	

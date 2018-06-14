@@ -7,6 +7,7 @@ public class Student extends Dept {
 		System.out.println(dp.designation);
 		System.out.println(dp.nameOfDept);
 		System.out.println(dp.mainSubject);
+		dp.does();
 	}
 }
 
