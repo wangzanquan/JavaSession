@@ -1,6 +1,7 @@
 package com.javasession.week.two.oop;
 
 //import package
+//import com.javasession.week.two.tryandcatch.*;
 import com.javasession.week.two.tryandcatch.TryCatchSample;
 
 public class GetFromOtherPackage {
