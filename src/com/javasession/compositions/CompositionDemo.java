@@ -4,9 +4,9 @@ public class CompositionDemo {
 	public static void main(String[] args) {
 		Honda h = new Honda() ;
 		h.setColor("Black");
-		h.setwheels(4);
+		h.setWheels(4);
 		h.bikeFeatures();
-		hsetStart();
-		}
+		h.setStart();
+		
 	}
 }
