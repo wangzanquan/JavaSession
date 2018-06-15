@@ -4,7 +4,7 @@ public class Bike {
 	private String color;
 	private int wheel;
 	
-	public void setColor(String color) {
+	void setColor(String color) {
 		this.color = color;
 	}
 	
