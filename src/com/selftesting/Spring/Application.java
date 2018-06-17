@@ -7,7 +7,7 @@ public class Application {
 		Shape shape = new Triangle();
 		shape.draw();
 		
-		Shape shape2 = new Circle();
+		Shape shape3 = new Circle();
 		shape.draw();
 
 	}
