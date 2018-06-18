@@ -24,7 +24,7 @@ public class InputStreamDemo {
 			 *  -1 means the binery STOP
 			 */
 			while((i = is.read()) != -1) {
-				//convers integer to character (read 0101001 <8 byte> and then convert to char)
+				//convert integer to character (read 0101001 <8 byte> and then convert to char)
 				c = (char) i;
 				
 				//prints character
