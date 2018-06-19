@@ -1,0 +1,12 @@
+Mike
+Trump
+49
+true
+Tony
+Wang
+42
+true
+Lily
+Li
+46
+false
