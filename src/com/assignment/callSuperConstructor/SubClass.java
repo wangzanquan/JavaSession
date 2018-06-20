@@ -31,7 +31,10 @@ public class SubClass extends SuperClass {
 	public static void main(String[] args) {
 		SuperClass obj = new SubClass("Tony");
 		
-		SuperClass obj2 = new SuperClass();//?!?!?!?!
+		/*
+		 * Abstract class cannot be instantiated.
+		 */
+		//SuperClass obj2 = new SuperClass();//?!?!?!?!
 		
 		
 		

@@ -12,6 +12,8 @@ public class FileInfo {
 		System.out.println("This is the file size: " + file.length());
 		System.out.println("This is the file name: " + file.getName());
 		
+		//Copy File
+		//File dest = new File("C:\\Users\\Yang\\Documents\\JavaSession\\JavaSession\\src\\com\\assignment\\file\\io\\TestingTextFileCopy");
 		try {
 			//This is print FILE printf
 			System.out.printf(file.getName() + " File Path " + file.getCanonicalPath());
