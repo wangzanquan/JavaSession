@@ -1,2 +1,6 @@
 /Author.class
 /SortAuthByNames.class
+/Person.class
+/PersonAgeComparator.class
+/PersonNameComparator.class
+/SortingPersonByMany.class

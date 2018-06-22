@@ -6,7 +6,6 @@ import java.util.Collections;
 public class SortAuthByNames {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		ArrayList<Author> al = new ArrayList<Author>();
 		al.add(new Author("Henry", "Miller", "Tropic of Cancer"));
 		al.add(new Author("Nalo", "Hoopkinson", "Brown girl in the Ring"));
