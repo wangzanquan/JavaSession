@@ -3,3 +3,5 @@
 /SerializationHashMap.class
 /ConvertToText.class
 /DeSerializationOfHashMap.class
+/TestDeserialization.class
+/HashMapSortByKeys.class
