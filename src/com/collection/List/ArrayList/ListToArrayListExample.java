@@ -13,6 +13,8 @@ public class ListToArrayListExample {
 		a1.add("text 2");
 		a1.add("text 3");
 		
+		System.out.println(a1.contains("text 1"));
+		
 		System.out.println(a1);
 		
 		List<String> a2 = new Vector<>();
