@@ -24,10 +24,17 @@ public class TaskManager {
 
 }
 
+
+/*
+ * QUESTION!!!!   extends, implements
+ */
 class Task extends Thread{
 	@Override
 	public void run() {
 		for(int i = 0; i < 100; i++) {
+			/*
+			 * QUESTION: what is currentThread()
+			 */
 			System.out.println("Number " + i + Task.currentThread().getName());
 		}
 	}
@@ -37,6 +44,9 @@ class Task1 implements Runnable{
 	@Override
 	public void run() {
 		for(int n = 0; n < 100; n++) {
+			/*
+			 * QUESTION: .class
+			 */
 			System.out.println("Node" + n + Task1.class.getName());
 		}
 	}
