@@ -12,9 +12,17 @@ public class StreamAPIExample {
 				 new Person("Thomas", "Caryle", 51),
 				 new Person("Charlotte", "Bronte", 45),
 				 new Person("Mathew", "Arnold", 39)
-				 
 						);
-		for(Person p: people) {
+		
+		//STREAM WAY
+		people.stream().forEach(anyNameRepresentPeople -> System.out.println(anyNameRepresentPeople.getLname()));
+		
+		//Print certain name
+		people.stream().filter(foo -> foo.getFname().startsWith("C")).forEach(foo -> System.out.println(foo.getFname()));
+		
+		
+		
+		/*for(Person p: people) {
 			System.out.println(p);
 		}
 		
@@ -26,7 +34,7 @@ public class StreamAPIExample {
 		//Print age
 		for(Person p2: people) {
 			System.out.println(p2.getAge());
-		}
+		}*/
 		
 	}
 }
