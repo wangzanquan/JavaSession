@@ -5,7 +5,9 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 public class ExecutorsExampleTwo {
-
+	/*
+	 * Manage multiple threads
+	 */
 	public static void main(String[] args) {
 
 		System.out.println("Inside: " + Thread.currentThread().getName());
@@ -23,7 +25,7 @@ public class ExecutorsExampleTwo {
 		};
 		
 		Runnable task2 = () ->{
-			System.out.println("Executing Task1 inside: " + Thread.currentThread().getName());
+			System.out.println("Executing Task2 inside: " + Thread.currentThread().getName());
 			try {
 				TimeUnit.SECONDS.sleep(3);
 			} catch (InterruptedException e) {
@@ -32,7 +34,7 @@ public class ExecutorsExampleTwo {
 		};
 		
 		Runnable task3 = () ->{
-			System.out.println("Executing Task1 inside: " + Thread.currentThread().getName());
+			System.out.println("Executing Task3 inside: " + Thread.currentThread().getName());
 			try {
 				TimeUnit.SECONDS.sleep(4);
 			} catch (InterruptedException e) {
