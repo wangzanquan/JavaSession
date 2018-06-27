@@ -50,7 +50,7 @@ public class SampleTest {
 	
 
 	private static<E> Set<E> unionOfSets(Set<E> mySet1, Set<E> mySet2){
-		Set<E> results = new HashSet<>();
+		Set<E> results = new TreeSet<>();
 		results.addAll(mySet1);
 		results.addAll(mySet2);
 		
